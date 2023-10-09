@@ -6,6 +6,7 @@ on:
 
 jobs:
   remove_label:
+    if: ${{ contains(github.event.*.labels.*.name, 'CI-trusted-author') }}
     runs-on: ubuntu-latest
     name: Remove label
     steps:

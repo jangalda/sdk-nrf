@@ -4,6 +4,6 @@
 # To have an empty list use:
 
 - scenarios:
-    - edge_impulse.ei_wrapper
+    - edge_impulse.ei_wrapperasd
   platforms:
     - qemu_cortex_m3sdfsdf
